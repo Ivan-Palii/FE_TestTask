@@ -1,0 +1,13 @@
+@import "reset";
+@import "variables";
+
+[class*='__container'] {
+  max-width: $containerWidth;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+#app{
+  height: 100%;
+  background-color: #e9e9e9;
+}
